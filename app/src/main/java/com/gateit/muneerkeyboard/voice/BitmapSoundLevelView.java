@@ -31,7 +31,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import com.android.inputmethod.leanback.R;
+import com.gateit.muneerkeyboard.R;
 
 /**
  * Displays the recording value of the microphone.

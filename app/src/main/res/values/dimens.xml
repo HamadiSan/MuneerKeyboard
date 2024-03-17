@@ -18,11 +18,11 @@
 <resources>
 
     <!-- height of keyboard keys -->
-    <dimen name="key_height">28dp</dimen>
+    <dimen name="key_height">60dp</dimen>
     <!-- width of keyboard keys -->
-    <dimen name="key_width">28dp</dimen>
+    <dimen name="key_width">60dp</dimen>
     <!-- width of space key (7x regular key + 6*horz_margin) -->
-    <dimen name="space_key_width">268dp</dimen>
+    <dimen name="space_key_width">490dp</dimen>
     <!-- horizontal gap of the keyboard -->
     <dimen name="keyboard_horizontal_gap">12dp</dimen>
     <!-- vertical gap of the keyboard -->
@@ -50,9 +50,9 @@
     <dimen name="candidate_scroll_view_horz_spacing">56dip</dimen>
 
     <!-- keyboard key font size -->
-    <dimen name="key_font_size">18sp</dimen>
+    <dimen name="key_font_size">36sp</dimen>
     <!-- font size of mode changing function keys -->
-    <dimen name="function_key_mode_change_font_size">16sp</dimen>
+    <dimen name="function_key_mode_change_font_size">36sp</dimen>
     <!-- min movement distance to change cursor size -->
     <dimen name="resize_move_distance">12dp</dimen>
 

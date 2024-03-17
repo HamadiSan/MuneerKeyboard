@@ -16,6 +16,7 @@
 
 package com.gateit.muneerkeyboard;
 
+import android.annotation.SuppressLint;
 import android.inputmethodservice.InputMethodService;
 import android.text.TextUtils;
 import android.util.Log;
@@ -74,6 +75,7 @@ public class LeanbackSuggestionsFactory {
      * insert completions provided by the app in front of the dictionary
      * suggestions
      */
+    @SuppressLint("LogTagMismatch")
     public void onDisplayCompletions(CompletionInfo[] completions) {
         createSuggestions();
 
