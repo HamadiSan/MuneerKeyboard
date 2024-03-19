@@ -16,6 +16,7 @@
 
 package com.gateit.muneerkeyboard;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -247,6 +248,7 @@ public class LeanbackKeyboardView extends FrameLayout {
         // computeProximityThreshold(keyboard); // TODO
     }
 
+    @SuppressLint({"UseCompatLoadingForDrawables", "LogTagMismatch"})
     private ImageView createKeyImageView(int keyIndex) {
 
         final Rect padding = mPadding;

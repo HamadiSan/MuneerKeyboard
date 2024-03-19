@@ -21,10 +21,10 @@
     <color name="search_mic_levels_guideline">#FFCCCCCC</color>
     <color name="search_mic_background">#FFFFFFFF</color>
 
-    <color name="keyboard_background">#FF384248</color>
+    <color name="keyboard_background">#FF222D34</color>
     <color name="key_text_default">#FFEEEEEE</color>
-    <color name="ime_selector_focus_color">#66EEEEEE</color>
-    <color name="ime_selector_color">#26EEEEEE</color>
+    <color name="ime_selector_focus_color">#FFE3B565</color>
+    <color name="ime_selector_color">#FF384248</color>
 
     <color name="candidate_background">#FF263238</color>
     <color name="candidate_font_color">#FF30C6B4</color>

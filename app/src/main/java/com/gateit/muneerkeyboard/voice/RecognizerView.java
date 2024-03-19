@@ -26,7 +26,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.android.inputmethod.leanback.R;
+import com.gateit.muneerkeyboard.R;
 import com.gateit.muneerkeyboard.LeanbackUtils;
 
 /**
@@ -68,6 +68,7 @@ public class RecognizerView extends RelativeLayout {
 
     @Override
     public void onFinishInflate() {
+        super.onFinishInflate();
         LayoutInflater inflater = LayoutInflater.from(getContext());
         inflater.inflate(R.layout.recognizer_view, this, true);
 
