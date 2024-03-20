@@ -37,7 +37,7 @@
         android:gravity="center"
         android:singleLine="true"
         android:textAllCaps="false"
-        android:textColor="@color/candidate_font_color"
+        android:textColor="@color/ime_selector_focus_color"
         android:textSize="@dimen/candidate_font_size" />
 
 </RelativeLayout>

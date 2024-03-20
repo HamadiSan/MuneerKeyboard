@@ -20,13 +20,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="bottom|center_horizontal"
-    android:background="@color/keyboard_background"
     android:clipChildren="false"
     android:clipToPadding="false"
     android:focusable="true"
     android:gravity="bottom|center_horizontal"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/keyboard_bottom_spacing" >
+    android:paddingBottom="0dp" >
 
     <View
         android:id="@+id/candidate_background"
@@ -36,11 +35,12 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:background="@color/candidate_background" />
+        />
 
     <HorizontalScrollView
         android:id="@+id/suggestions_container"
-        android:layout_width="wrap_content"
+        android:layout_width="1300dp"
+        android:background="@color/candidate_background"
         android:layout_height="@dimen/key_height"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -64,13 +64,15 @@
 
     <LinearLayout
         android:id="@+id/keyboard"
-        android:layout_width="match_parent"
+        android:layout_width="1300dp"
+        android:background="@color/keyboard_background"
         android:layout_height="wrap_content"
         android:layout_below="@+id/suggestions_container"
         android:layout_centerHorizontal="true"
         android:clipChildren="false"
         android:gravity="center"
-        android:paddingTop="@dimen/keyboard_top_spacing" >
+        android:paddingTop="@dimen/keyboard_top_spacing"
+        android:paddingBottom="@dimen/keyboard_bottom_spacing" >
 
         <include layout="@layout/input_leanback" />
     </LinearLayout>
