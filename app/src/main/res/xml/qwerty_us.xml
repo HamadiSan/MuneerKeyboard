@@ -217,8 +217,6 @@
             android:keyIcon="@drawable/ic_ime_shift_off" />
         <Key
             android:codes="32"
-            android:keyIcon="@drawable/ic_ime_space"
-            android:keyLabel="@string/keyboardview_keycode_space"
             android:keyWidth="@dimen/space_key_width" />
         <Key
             android:codes="-3"

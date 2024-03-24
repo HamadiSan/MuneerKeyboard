@@ -32,9 +32,9 @@
     <!-- size of key selector -->
     <dimen name="selector_size">24dp</dimen>
     <!-- top gap when the suggestion is enabled -->
-    <dimen name="keyboard_top_spacing">6dp</dimen>
+    <dimen name="keyboard_top_spacing">12dp</dimen>
     <!-- gap below keyboard -->
-    <dimen name="keyboard_bottom_spacing">28dp</dimen>
+    <dimen name="keyboard_bottom_spacing">12dp</dimen>
     <!-- action button size -->
     <dimen name="action_button_size">64dp</dimen>
 
@@ -50,7 +50,7 @@
     <dimen name="candidate_scroll_view_horz_spacing">56dip</dimen>
 
     <!-- keyboard key font size -->
-    <dimen name="key_font_size">36sp</dimen>
+    <dimen name="key_font_size">30sp</dimen>
     <!-- font size of mode changing function keys -->
     <dimen name="function_key_mode_change_font_size">36sp</dimen>
     <!-- min movement distance to change cursor size -->

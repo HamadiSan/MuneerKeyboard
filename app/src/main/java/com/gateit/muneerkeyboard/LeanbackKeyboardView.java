@@ -268,9 +268,7 @@ public class LeanbackKeyboardView extends FrameLayout {
         Canvas canvas = new Canvas(bitmap);
         final Paint paint = mPaint;
         paint.setColor(mKeyTextColor);
-
-        canvas.drawARGB(0, 0,  0,  0);
-
+        canvas.drawARGB(150, 59,  59,  59);
         if (key.icon != null) {
             if (key.codes[0] == Keyboard.KEYCODE_SHIFT) {
                 switch (mShiftState) {
